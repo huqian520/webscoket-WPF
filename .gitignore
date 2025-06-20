@@ -1,0 +1,52 @@
+## 核心排除 ##
+bin/
+obj/
+[Bb]uild/
+[Oo]utput/
+[Pp]ublish/
+packages/
+*.user
+*.suo
+*.log
+*.cache
+[Tt]humbs.db
+
+## Visual Studio ##
+.vs/
+.vscode/
+.idea/
+*.DotSettings
+*.sln.iml
+*.csproj.iml
+_ReSharper.*
+*.ReSharper
+
+## NuGet ##
+*.nupkg
+packages.lock.json
+project.lock.json
+
+## 编译文件 ##
+*.pdb
+*.dll
+*.exe
+*.cache
+*.pch
+*.ilk
+*.iobj
+*.ipdb
+
+## 环境/配置 ##
+.env
+*.env.local
+appsettings.Development.json
+appsettings.Local.json
+
+## 其他 ##
+~$*
+*.tmp
+*.temp
+.DS_Store
+*.bak
+*.orig
+*.scc
